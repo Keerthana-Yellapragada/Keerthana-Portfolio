@@ -4024,3 +4024,9 @@ input, select, textarea {
 .projects-main-title{
 	text-align: center;
 }
+
+.question-heading{
+margin: 20px 0px;
+font-size: 25px;
+font-weight:bold
+}
