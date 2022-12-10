@@ -1821,7 +1821,7 @@ input, select, textarea {
 	label {
 		color: #fff;
 		display: block;
-		font-size: 0.9em;
+		font-size: 2em;
 		font-weight: 600;
 		margin: 0 0 1em 0;
 	}
@@ -2703,20 +2703,20 @@ input, select, textarea {
 		}
 
 		.spotlight:nth-child(1) {
-			background-color: rgba(8, 31, 12, 0.5);
-			;
+			background-color:black;
+
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: rgba(39, 44, 41, 0.5);
+			background-color: rgba(11, 91, 182);
 		}
 
 		.spotlight:nth-child(3) {
-			background-color: rgba(0, 6, 2, 0.5);
+			background-color: rgb(46, 57, 61);
 		}
 
 		.spotlight:nth-child(4) {
-			background-color: rgba(8,31,12, 0.5);
+			background-color: rgb(3, 41, 9);
 		}
 
 		.spotlight:nth-child(5) {
@@ -4023,10 +4023,23 @@ input, select, textarea {
 
 .projects-main-title{
 	text-align: center;
+	padding-top: 20px;
+	text-decoration: underline;
 }
 
 .question-heading{
 margin: 20px 0px;
 font-size: 25px;
 font-weight:bold
+}
+
+
+.label{
+	font-size: 100px;
+	margin: 5%
+}
+
+
+.contact-me{
+	font-size: 170%
 }
